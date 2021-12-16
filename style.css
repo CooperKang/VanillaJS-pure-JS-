@@ -1,0 +1,30 @@
+* {
+  padding: 0;
+  margin: 0;
+  cursor: default;
+  text-align: center;
+}
+body {
+  background-color: beige;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+h1 {
+  background-color: cornflowerblue;
+  cursor: pointer;
+  transition: 1s all;
+  height: 100px;
+  line-height: 100px;
+}
+.clicked {
+  background-color: tomato;
+  height: 100vh;
+  line-height: 100vh;
+}
+.sexy-font {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 40px;
+}
