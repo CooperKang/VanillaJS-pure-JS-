@@ -11,18 +11,21 @@ body {
   -ms-user-select: none;
   user-select: none;
   height: 100vh;
-  line-height: 100vh;
   font-family: "merona", sans-serif;
 }
 @font-face {
   font-family: "merona";
-  src: url("./fonts/BinggraeMelona.otf");
+  src: url("../fonts/BinggraeMelona.otf");
 }
 @font-face {
   font-family: "samanco";
-  src: url("./fonts/BinggraeSamanco.otf");
+  src: url("../fonts/BinggraeSamanco.otf");
 }
 
 .hidden {
   display: none;
+}
+
+#clock {
+  transition: 0.3s all;
 }
