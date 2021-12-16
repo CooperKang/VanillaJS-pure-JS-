@@ -39,7 +39,8 @@ body {
   display: none;
 }
 
-#greeting {
+#greeting,
+#login-form {
   padding: 100px 0;
 }
 
