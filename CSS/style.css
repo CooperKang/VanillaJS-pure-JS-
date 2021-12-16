@@ -26,6 +26,11 @@ body {
   display: none;
 }
 
-#clock {
-  transition: 0.3s all;
+#quote span:first-child {
+  font-size: 17px;
+  font-weight: bold;
+}
+#quote span:last-child {
+  font-size: 15px;
+  font-style: italic;
 }
